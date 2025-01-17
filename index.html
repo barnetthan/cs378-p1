@@ -1,19 +1,114 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <!-- Import Bootstrap -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
 
     <!-- Import your style.css stylesheet -->
-    <link rel="stylesheet" href="style.css">
-
+    <link rel="stylesheet" href="style.css" />
+    <title>Han's Wok</title>
   </head>
   <!-- Implement below this point -->
   <body>
-    Hello world!
+    <div class="center">
+      <img id="logo" src="logo.png" alt="Han's Wok restaraunt logo" />
+    </div>
+    <div class="center col-12">
+      <h2 id="special-font">Authentic Chinese Cuisine</h2>
+    </div>
+    <div class="center col-12">
+      <h1>UT's best Asian food!</h1>
+    </div>
+    <div class="row center" id="menu-list">
+      <div class="row menu-item">
+        <div class="col-4">
+          <img class="menu-img" src="orangechicken.jpg" alt="Orange Chicken" />
+        </div>
+        <div class="col-8 menu-text">
+          <h2>Orange Chicken</h2>
+          <p>
+            Crispy chicken topped with a tangy orange sauce and a hint of spice.
+          </p>
+          <div class="row">
+            <div class="col-8">
+              <b>$9.95</b>
+            </div>
+            <div class="col-2">
+              <button>Add</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row menu-item">
+        <div class="col-4">
+          <img class="menu-img" src="porkbelly.png" alt="Crispy Pork Belly" />
+        </div>
+        <div class="col-8 menu-text">
+          <h2>Crispy Pork Belly</h2>
+          <p>Crispy Pork Belly fried to perfection. The chef's favorite!</p>
+          <div class="row">
+            <div class="col-8">
+              <b>$12.95</b>
+            </div>
+            <div class="col-2">
+              <button>Add</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row menu-item">
+        <div class="col-4">
+          <img
+            class="menu-img"
+            src="stringbean.jpg"
+            alt="String Bean with Eggplant"
+          />
+        </div>
+        <div class="col-8 menu-text">
+          <h2>String Bean w/ Eggplant</h2>
+          <p>
+            String Bean and Eggplant stir fried with our secret savory sauce.
+          </p>
+          <div class="row">
+            <div class="col-8">
+              <b>$7.95</b>
+            </div>
+            <div class="col-2">
+              <button>Add</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row menu-item">
+        <div class="col-4">
+          <img
+            class="menu-img"
+            src="spicychicken.jpg"
+            alt="Crispy Spicy Chicken"
+          />
+        </div>
+        <div class="col-8 menu-text">
+          <h2>Spicy Crispy Chicken</h2>
+          <p>Crispy chicken served on a plate with red peppers. Spicy!</p>
+          <div class="row">
+            <div class="col-8">
+              <b>$10.95</b>
+            </div>
+            <div class="col-2">
+              <button>Add</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
